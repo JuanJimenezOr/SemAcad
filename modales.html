@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Modern Business - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    <link href="css/modern-business.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Jornada Académica Computación</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <i class="fa fa-bullhorn"></i> Conferenicas
+              </a>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                <a class="dropdown-item" href="obligatorias.html">Obligatorias</a>
+                <a class="dropdown-item" href="optativas.html">Optativas</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="modales.html">Modales</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+     <!-- Page Content -->
+<div class="container">
+    <h1 class="my-4 text-center">Ventanas Modales </h1>
+    <br>
+    <div class="well">
+        <button class="btn btn-success cursor-pointer" data-toggle="modal" data-target="#carouselModal">Como hacer un Carousel</button>
+        <button class="btn btn-info cursor-pointer pull-right" data-toggle="modal" data-target="#modalModal">Como hacer una Modal</button>
+        <br>
+        <br>
+    </div>
+</div>
+
+
+<!-- Modal carousel -->
+<div class="modal fade" id="carouselModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Resumen del Carousel</h5>
+                <button type="button cursor-pointer" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-justify">
+                Para hacer un carousel es necesario ir a la pagina de bootstrap 4, te vas a la opcion de components y eliges la que dice
+                carousel. Una vez dentro elegir el que mas nos guste y copiar el codigo en el html, importante poner la direccion de la imagen
+                para que se muestre en nuestro carousel
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary cursor-pointer" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success cursor-pointer" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal modal -->
+<div class="modal fade" id="modalModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Resumen de la ventana Modal</h5>
+                <button type="button cursor-pointer" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body text-justify">
+                Para hacer una ventana modal es necesario hacer un botón que tiene que tener los atributos data-toggle y data-target
+                que es el identificado que se asocia a nuestra ventana, después se procede a crear la ventana modal, para eso se crea un div
+                que contiene el id que se paso en data-target. Después se procede a construir el cuerpo de la ventan con 3 div, donde uno tendrá
+                la cruz de cerrar, otro el cuerpo de la ventan y por ultimo el pie que contiene los 2 botones para cerrar también la ventana modal.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary cursor-pointer" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-success cursor-pointer" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Jiménez Ortiz Juan Daniel</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
